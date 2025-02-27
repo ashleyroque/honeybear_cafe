@@ -1,8 +1,4 @@
-Certainly! Below is a GitHub-style "About Me" section for your mock café website, **Honey Bear Cafe**. It includes a description of your café, its values, and a mention of the features you want to implement (like a point system for rewards). You can use this as part of your website's "About Us" page or GitHub repository description.
-
----
-
-### About Honey Bear Cafe 🍯🐻
+#### About Honey Bear Cafe 🍯🐻
 
 Welcome to **Honey Bear Cafe**, where every cup of coffee and every bite of pastry is crafted with love and care. We pride ourselves on delivering an unparalleled café experience that keeps our customers coming back for more.
 
