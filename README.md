@@ -49,8 +49,8 @@ This is a **mock website** for a made-up café, but if you'd like to contribute 
 
 ---
 
-### Repository Link
-🔗 [Honey Bear Cafe GitHub Repository](#) *(Replace with your actual repository link)*
+### Figma Prototype 
+🔗[ [Honey Bear Cafe GitHub Repository](#) *(Replace with your actual repository link)*](https://www.figma.com/proto/u9gTw9AH3r4OAGQwvq8Bi5/honeybear-cafe?page-id=0%3A1&node-id=5-2&p=f&viewport=932%2C1878%2C0.56&t=euACEzXeQsLGYV0T-1&scaling=contain&content-scaling=fixed)
 
 ---
 
