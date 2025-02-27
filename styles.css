@@ -1,0 +1,212 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element size */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1440px; /* Matching rect_1 width */
+    margin: 0 auto; /* Center the container */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header with rect_1 */
+.header {
+    text-align: left; /* Align header content to the left */
+}
+
+.rect_1 {
+    width: 1440px;
+    height: 117px;
+    background: #FFFDFB;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+/* Logo styling */
+.logo {
+    font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.65px;
+    letter-spacing: 0%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+    max-width: 300px; /* Adjust based on available space */
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px; /* Space between nav items */
+}
+
+.nav ul li a {
+    color: #000000; /* Black text color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Specific styles for "About Us" */
+.nav ul li a.about-us {
+    font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.65px;
+    letter-spacing: 0%;
+    width: 122px; /* Width of the "About Us" text */
+    height: 47px; /* Height of the "About Us" text */
+}
+
+/* Specific styles for "Order" */
+.nav ul li a.order {
+    font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.65px;
+    letter-spacing: 0%;
+    width: 102px; /* Width of the "Order" text */
+    height: 47px; /* Height of the "Order" text */
+}
+
+/* Specific styles for "Shop" */
+.nav ul li a.shop {
+    font-family: 'Roboto Mono', monospace; /* Apply Roboto Mono font */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.65px;
+    letter-spacing: 0%;
+    width: 102px; /* Width of the "Shop" text */
+    height: 47px; /* Height of the "Shop" text */
+}
+
+.nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Content Area */
+.content {
+    padding: 20px;
+    display: flex; /* Use Flexbox to align boxes side by side */
+    gap: 10px; /* Space between the boxes */
+}
+
+/* vd_box */
+.vd_box {
+    width: 710px;
+    height: 805px;
+    background-color: #FFFDFB;
+    border: 1px solid #000000;
+}
+
+/* blank_box */
+.blank_box {
+    width: 710px;
+    height: 805px;
+    background: #FFFDFB;
+    border: 1px solid #000000;
+}
+/* Promotion Section */
+.promotion {
+    width: 100%; /* Full width of the container */
+    height: 117px;
+    background: #FFFDFB;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: center; /* Center the content */
+}
+
+
+/* Welcome Box */
+.welcome-box {
+    width: 1440px;
+    height: 515px;
+    margin-top: 20px;
+    background: #FFF5F5;
+    border: 1px solid #000000;
+    border-radius: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+/* Welcome Text */
+.welcome-text {
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px; /* Space between text and buttons */
+}
+
+.welcome-text p {
+    margin: 0; /* Remove default paragraph margins */
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px; /* Space between buttons */
+}
+
+/* Button Styles */
+.view-menu,
+.place-order {
+    width: 633px;
+    height: 145px;
+    background: #FFFDFB;
+    border: 1px solid #000000;
+    border-radius: 95px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* Hover Effect for Buttons with Custom Cursor */
+.view-menu:hover,
+.place-order:hover {
+    background: #f0f0f0; /* Light gray background on hover */
+    cursor: url('cake.png'), auto; /* Custom cursor on hover */
+}
+
+/* Default cursor for body */
+body {
+    cursor: default;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
